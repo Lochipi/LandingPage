@@ -4,12 +4,12 @@ FrontEnd Mentor Challenge
 **Stack
 Reactjs**
 
---npm install-- 
---npm run dev--
+npm install
+npm run dev
 
 I have used components to build up my page.
 
-**what i have learnt **
+**what I have learnt **
 
 Using components and styling
 How to install and use icons in react
