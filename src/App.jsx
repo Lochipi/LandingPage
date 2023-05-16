@@ -5,7 +5,6 @@ import Header from "./components/Header"
 import content from "./content"
 import Card from "./components/Card"
 import Footer from "./components/Footer"
-import { StyledFooter } from "./components/styles/Footer.styled"
 
 const theme = {
   colors: {
@@ -30,10 +29,8 @@ function App() {
             (<Card key={index} items={item} />))
           }
         </Container>
-        <StyledFooter>
-          <Footer />
-        </StyledFooter>
 
+          <Footer />
       </>
     </ThemeProvider>
   )
