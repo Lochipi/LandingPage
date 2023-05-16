@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const StyledIcons = styled.div`
-    // display: flex;
+    display: flex;
     justify-content: center;
     align-items: center;
 
@@ -27,4 +27,9 @@ export const StyledIcons = styled.div`
     & > li :hover{
         transform: scale(1.03);
     }
+
+    @media (max-width: ${({theme}) => theme.mobile}){
+        flex-direction: row;
+        margin-bottom: 1em;
+    };
 `
